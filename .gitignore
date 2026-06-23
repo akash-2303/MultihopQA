@@ -1,0 +1,22 @@
+##Not including actual PDF's from local
+Input /**/*.pdf
+
+#ignore output
+output/
+
+#Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+#Ignore Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+#Ignore conda/pip artifacts
+*.egg-info/
+.env
+
+#Ignore HuggingFace Cache
+*.bin
+*.safetensors
